@@ -29,3 +29,18 @@ function rejectCookies() {
 function openSettings() {
   alert("Çerez ayarları paneli eklenebilir.");
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  const contactForm = document.getElementById('contactForm');
+  
+  contactForm.addEventListener('submit', function(event) {
+    // Prevent the default form submission
+    event.preventDefault();
+    
+    // Show alert in Turkish
+    alert('Mesajınız başarıyla gönderildi!');
+    
+    // Clear all form fields
+    contactForm.reset();
+  });
+});
