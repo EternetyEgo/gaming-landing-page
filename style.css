@@ -1,1002 +1,1008 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-	max-width: 100%;
-	margin: 0 auto;
-	overflow-x: hidden;
-	color: #ffffff;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  color: #ffffff;
 }
 
 /* Hero Section Styling */
 
 #hero-section {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url('./assets/Photos/futuristic-bg.png');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/Photos/futuristic-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 header {
-	height: 15vh;
-	padding: 0 5rem;
-	display: flex;
-	align-items: center;
-	width: 100%;
+  height: 15vh;
+  padding: 0 5rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
 header .header-logo {
-	width: 20%;
+  width: 20%;
 }
 
 nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
 }
 
 nav > ul {
-	display: flex;
-	align-items: center;
-	gap: 3rem;
-	list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  list-style: none;
 }
 
 nav > ul li:hover {
-	cursor: pointer;
-	scale: 1.03;
-	transition: all 0.5s;
-	font-weight: 500;
+  cursor: pointer;
+  scale: 1.03;
+  transition: all 0.5s;
+  font-weight: 500;
 }
 
 nav > .nav-button button:first-child {
-	font-size: 1.05rem;
-	font-weight: 500;
-	background-color: transparent;
-	color: #ffffff;
-	border: 2px solid transparent;
-	padding: 0.7rem 2rem;
-	margin-right: 5px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid transparent;
+  padding: 0.7rem 2rem;
+  margin-right: 5px;
 }
 
 nav > .nav-button button:last-child {
-	font-size: 1.05rem;
-	font-weight: 500;
-	background-color: #f4694c;
-	color: #ffffff;
-	border: 2px solid transparent;
-	padding: 0.7rem 2rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+  background-color: #f4694c;
+  color: #ffffff;
+  border: 2px solid transparent;
+  padding: 0.7rem 2rem;
 }
 
 nav > .nav-button button:first-child:hover {
-	border: 2px solid #ffffff;
-	scale: 1.03;
-	transition: all 0.5s;
-	cursor: pointer;
+  border: 2px solid #ffffff;
+  scale: 1.03;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
 nav > .nav-button button:last-child:hover {
-	background-color: #fff;
-	color: #f4694c;
-	scale: 1.03;
-	transition: all 0.5s;
-	cursor: pointer;
+  background-color: #fff;
+  color: #f4694c;
+  scale: 1.03;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
 nav .nav-bar {
-	display: none;
+  display: none;
 }
 
 main {
-	padding: 0 5rem;
-	display: flex;
-	justify-content: space-between;
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 main .hero-left {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	gap: 3rem;
-	padding: 6rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  padding: 6rem 0;
 }
 
 .hero-left h1 {
-	font-size: 3rem;
-	width: 34rem;
+  font-size: 3rem;
+  width: 34rem;
 }
 
 .hero-left p {
-	line-height: 2rem;
-	opacity: 0.6;
-	width: 35rem;
+  line-height: 2rem;
+  opacity: 0.6;
+  width: 35rem;
 }
 
 .hero-left .hero-btn {
-	display: flex;
-	gap: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
 }
 
 .hero-btn button:first-child {
-	background-color: #f4694c;
-	color: #ffffff;
-	border: 2px solid transparent;
-	padding: 1rem 2.5rem;
-	font-size: 1.1rem;
-	font-weight: 500;
+  background-color: #f4694c;
+  color: #ffffff;
+  border: 2px solid transparent;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .hero-btn button:last-child {
-	background-color: transparent;
-	color: #ffffff;
-	border: 2px solid #ffffff;
-	padding: 1rem 2.5rem;
-	font-size: 1.1rem;
-	font-weight: 500;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .hero-btn button:hover {
-	background-color: #ffffff;
-	color: #f4694c;
-	scale: 1.03;
-	transition: all 0.5s;
-	cursor: pointer;
+  background-color: #ffffff;
+  color: #f4694c;
+  scale: 1.03;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
 main .hero-right {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .hero-right .hr-logo {
-	backdrop-filter: blur(1rem);
+  backdrop-filter: blur(1rem);
 }
 
 .hero-right .hr-text {
-	display: flex;
+  display: flex;
 }
 
 .hero-right .hr-text h3 {
-	font-size: 1.5rem;
-	font-weight: 400;
-	width: 15rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 15rem;
 }
 
 .hr-text .dash {
-	align-self: flex-start;
-	padding-top: 1rem;
-	padding-right: 1rem;
+  align-self: flex-start;
+  padding-top: 1rem;
+  padding-right: 1rem;
 }
 
 .hr-text .right-arrow {
-	align-self: flex-end;
-	padding-left: 1rem;
-	padding-bottom: 0.5rem;
+  align-self: flex-end;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 /* Media Queries for Hero Section */
 
 @media (max-width: 1166px) {
-	.hero-left h1 {
-		width: 34rem;
-	}
+  .hero-left h1 {
+    width: 34rem;
+  }
 }
 
 @media (max-width: 1100px) {
-	nav > ul {
-		display: none;
-	}
+  nav > ul {
+    display: none;
+  }
 
-	nav {
-		justify-content: flex-end;
-	}
+  nav {
+    justify-content: flex-end;
+  }
 
-	main {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
+  main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-	main .hero-left {
-		align-items: center;
-		padding: 5rem 0;
-	}
+  main .hero-left {
+    align-items: center;
+    padding: 5rem 0;
+  }
 
-	.hero-left h1 {
-		width: 100%;
-		text-align: center;
-	}
+  .hero-left h1 {
+    width: 100%;
+    text-align: center;
+  }
 
-	.hero-left p {
-		width: 70%;
-		text-align: center;
-	}
+  .hero-left p {
+    width: 70%;
+    text-align: center;
+  }
 
-	main .hero-right {
-		justify-content: center;
-	}
+  main .hero-right {
+    justify-content: center;
+  }
 
-	.hero-right .hr-text {
-		justify-content: center;
-		padding: 3rem 0;
-	}
+  .hero-right .hr-text {
+    justify-content: center;
+    padding: 3rem 0;
+  }
 
-	.hero-right .hr-text h3 {
-		width: 50%;
-		text-align: center;
-	}
+  .hero-right .hr-text h3 {
+    width: 50%;
+    text-align: center;
+  }
 
-	.hr-text .dash {
-		padding-top: 1.2rem;
-	}
+  .hr-text .dash {
+    padding-top: 1.2rem;
+  }
 
-	.hr-text .right-arrow {
-		padding-bottom: 0.5rem;
-	}
+  .hr-text .right-arrow {
+    padding-bottom: 0.5rem;
+  }
 }
 
 @media (max-width: 767px) {
-	header,
-	main {
-		padding: 0 2rem;
-	}
+  header,
+  main {
+    padding: 0 2rem;
+  }
 
-	nav .nav-button {
-		display: none;
-	}
-	nav .nav-bar {
-		display: block;
-	}
+  nav .nav-button {
+    display: none;
+  }
+  nav .nav-bar {
+    display: block;
+  }
 
-	.hero-left h1 {
-		font-size: 2.5rem;
-		font-weight: 600;
-	}
+  .hero-left h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
 
-	.hero-left p {
-		width: 90%;
-	}
+  .hero-left p {
+    width: 90%;
+  }
 }
 
 @media (max-width: 580px) {
-	.hero-left h1 {
-		font-size: 2rem;
-	}
+  .hero-left h1 {
+    font-size: 2rem;
+  }
 
-	.hero-left p {
-		width: 100%;
-	}
+  .hero-left p {
+    width: 100%;
+  }
 
-	.hero-left .hero-btn {
-		flex-direction: column;
-		gap: 1rem;
-	}
+  .hero-left .hero-btn {
+    flex-direction: column;
+    gap: 1rem;
+  }
 
-	.hero-right .hr-text h3 {
-		width: 70%;
-		font-size: 1.2rem;
-	}
+  .hero-right .hr-text h3 {
+    width: 70%;
+    font-size: 1.2rem;
+  }
 
-	.hr-text .dash {
-		padding-top: 0.8rem;
-	}
+  .hr-text .dash {
+    padding-top: 0.8rem;
+  }
 
-	.hr-text .right-arrow {
-		padding-bottom: 0.3rem;
-	}
+  .hr-text .right-arrow {
+    padding-bottom: 0.3rem;
+  }
 }
 
 /* Popular Games Section Styling */
 
 #most-popular {
-	background-color: #ffffff;
-	color: #000000;
-	padding: 10rem 5rem;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10rem 5rem;
 }
 
 #most-popular .popular-header {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
 }
 
 #most-popular .popular-header h2 {
-	font-size: 3rem;
-	text-align: center;
-	width: 70%;
+  font-size: 3rem;
+  text-align: center;
+  width: 70%;
 }
 
 #most-popular .popular-game-cards {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
 }
 
 #most-popular .popular-game-cards .card-1 {
-	background-image: url('./assets/Photos/image\ 2.png');
-	background-size: cover;
-	background-position: center right -3.5rem;
-	padding-top: 18rem;
+  background-image: url("./assets/Photos/image\ 2.png");
+  background-size: cover;
+  background-position: center right -3.5rem;
+  padding-top: 18rem;
 }
 
 #most-popular .popular-game-cards .card-2 {
-	background-image: url('./assets/Photos/image\ 4.png');
-	background-size: cover;
-	background-position: center;
-	padding-top: 18rem;
+  background-image: url("./assets/Photos/image\ 4.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 18rem;
 }
 
 #most-popular .popular-game-cards .card-3 {
-	background-image: url('./assets/Photos/image\ 3.png');
-	background-size: cover;
-	background-position: center;
-	padding-top: 18rem;
+  background-image: url("./assets/Photos/image\ 3.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 18rem;
 }
 
 #most-popular .popular-game-cards .card-4 {
-	background-image: url('./assets/Photos/Rectangle\ 56.png');
-	background-size: cover;
-	background-position: center;
-	padding-top: 18rem;
+  background-image: url("./assets/Photos/Rectangle\ 56.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 18rem;
 }
 
 .popular-game-cards .card-details {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 1.1rem 1rem;
-	color: #ffffff;
-	background: rgba(0, 0, 0, 0.5);
-	backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1rem 1rem;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
 }
 
 .card-details .card-left h4 {
-	font-size: 1rem;
-	font-weight: 500;
-	margin-bottom: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
 .card-details .card-left p {
-	font-size: 0.85rem;
-	opacity: 0.7;
+  font-size: 0.85rem;
+  opacity: 0.7;
 }
 
 .card-details .card-right button {
-	background-color: #f4694c;
-	color: #ffffff;
-	border: none;
-	padding: 0.55rem 0.8rem;
+  background-color: #f4694c;
+  color: #ffffff;
+  border: none;
+  padding: 0.55rem 0.8rem;
 }
 
 .card-details .card-right button:hover {
-	background-color: #ffffff;
-	color: #f4694c;
-	transition: all 0.3s;
-	cursor: pointer;
+  background-color: #ffffff;
+  color: #f4694c;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
 .popular-game-cards .card:hover {
-	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 1);
-	scale: 1.05;
-	transition: all 0.3s ease-in-out;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 1);
+  scale: 1.05;
+  transition: all 0.3s ease-in-out;
 }
 
 .war-game {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: 10rem;
-	column-gap: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  column-gap: 6rem;
 }
 
 .war-game .war-game-left {
-	width: 55%;
+  width: 55%;
 }
 
 .war-game .war-game-left img {
-	width: 100%;
+  width: 100%;
 }
 
 .war-game .war-game-right {
-	width: 45%;
-	display: flex;
-	flex-direction: column;
-	row-gap: 2rem;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
 }
 
 .war-game .war-game-right h2 {
-	font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .war-game .war-game-right p {
-	font-size: 0.9rem;
-	line-height: 2rem;
-	opacity: 0.8;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  opacity: 0.8;
 }
 
 .war-game .war-game-right .war-game-btn {
-	display: flex;
-	gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .war-game-btn button:first-child {
-	background-color: #f4694c;
-	color: #ffffff;
-	border: 2px solid transparent;
-	font-size: 1rem;
-	padding: 0.9rem 2.3rem;
+  background-color: #f4694c;
+  color: #ffffff;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  padding: 0.9rem 2.3rem;
 }
 
 .war-game-btn button:last-child {
-	background-color: #ffffff;
-	color: #f4694c;
-	border: 2px solid #f4694c;
-	font-size: 1rem;
-	padding: 0.9rem 2.3rem;
+  background-color: #ffffff;
+  color: #f4694c;
+  border: 2px solid #f4694c;
+  font-size: 1rem;
+  padding: 0.9rem 2.3rem;
 }
 
 .war-game-btn button:first-child:hover {
-	background-color: #ffffff;
-	color: #f4694c;
-	border: 2px solid #f4694c;
-	scale: 1.03;
-	transition: all 0.3s;
-	cursor: pointer;
+  background-color: #ffffff;
+  color: #f4694c;
+  border: 2px solid #f4694c;
+  scale: 1.03;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
 .war-game-btn button:last-child:hover {
-	background-color: #f4694c;
-	color: #ffffff;
-	scale: 1.03;
-	transition: all 0.3s;
-	cursor: pointer;
+  background-color: #f4694c;
+  color: #ffffff;
+  scale: 1.03;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
 /* Media Queries for Popular Games Section */
 
 @media (max-width: 1300px) {
-	#most-popular .popular-game-cards {
-		grid-template-columns: repeat(2, 1fr);
-	}
+  #most-popular .popular-game-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-	.war-game .war-game-right h2 {
-		font-size: 2rem;
-	}
+  .war-game .war-game-right h2 {
+    font-size: 2rem;
+  }
 
-	.war-game .war-game-right p {
-		line-height: 1.5rem;
-	}
+  .war-game .war-game-right p {
+    line-height: 1.5rem;
+  }
 }
 
 @media (max-width: 1200px) {
-	#most-popular .popular-header h2 {
-		width: 100%;
-	}
+  #most-popular .popular-header h2 {
+    width: 100%;
+  }
 
-	.war-game {
-		flex-direction: column;
-		margin-top: 6rem;
-		row-gap: 3rem;
-	}
+  .war-game {
+    flex-direction: column;
+    margin-top: 6rem;
+    row-gap: 3rem;
+  }
 
-	.war-game .war-game-left {
-		width: 90%;
-	}
+  .war-game .war-game-left {
+    width: 90%;
+  }
 
-	.war-game .war-game-right {
-		width: 90%;
-	}
+  .war-game .war-game-right {
+    width: 90%;
+  }
 }
 
 @media (max-width: 767px) {
-	#most-popular {
-		padding: 5rem 2rem;
-	}
+  #most-popular {
+    padding: 5rem 2rem;
+  }
 
-	#most-popular .popular-header h2 {
-		font-size: 2rem;
-		font-weight: 600;
-	}
+  #most-popular .popular-header h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
 
-	#most-popular .popular-game-cards {
-		grid-template-columns: repeat(1, 1fr);
-	}
+  #most-popular .popular-game-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-	.war-game .war-game-left {
-		width: 100%;
-	}
+  .war-game .war-game-left {
+    width: 100%;
+  }
 
-	.war-game .war-game-right {
-		width: 100%;
-	}
+  .war-game .war-game-right {
+    width: 100%;
+  }
 
-	.war-game .war-game-right h2 {
-		font-weight: 600;
-	}
+  .war-game .war-game-right h2 {
+    font-weight: 600;
+  }
 }
 
 @media (max-width: 435px) {
-	.war-game .war-game-right .war-game-btn {
-		flex-direction: column;
-	}
+  .war-game .war-game-right .war-game-btn {
+    flex-direction: column;
+  }
 }
 
 /* Recommend Games Section Styling */
 
 #recommend-games {
-	background-color: #ffffff;
-	color: #000000;
-	padding: 0 5rem 7rem;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0 5rem 7rem;
 }
 
 #recommend-games .recommend-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .recommend-text {
-	width: 50%;
+  width: 50%;
 }
 
 .recommend-text h2 {
-	font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .recommend-logo {
-	display: flex;
-	gap: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
 }
 
 .recommend-logo img:first-child {
-	background-color: #fde1db;
-	padding: 1.7rem 1.2rem;
-	cursor: pointer;
+  background-color: #fde1db;
+  padding: 1.7rem 1.2rem;
+  cursor: pointer;
 }
 
 .recommend-logo img:last-child {
-	background-color: #f4694c;
-	padding: 1.7rem 1.2rem;
-	cursor: pointer;
+  background-color: #f4694c;
+  padding: 1.7rem 1.2rem;
+  cursor: pointer;
 }
 
 .recommend-cards {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 5rem;
-	margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  margin-top: 5rem;
 }
 
 .recommend-cards .game-card {
-	display: flex;
-	gap: 2rem;
+  display: flex;
+  gap: 2rem;
 }
 
 .game-card .game-card-img {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	padding: 9rem 7.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 9rem 7.5rem;
 }
 
 .game-card-1 .game-card-img {
-	background-image: url('./assets/Photos/Rectangle\ 75.png');
+  background-image: url("./assets/Photos/Rectangle\ 75.png");
 }
 
 .game-card-2 .game-card-img {
-	background-image: url('./assets/Photos/Rectangle\ 76.png');
+  background-image: url("./assets/Photos/Rectangle\ 76.png");
 }
 
 .game-card-3 .game-card-img {
-	background-image: url('./assets/Photos/Rectangle\ 77.png');
+  background-image: url("./assets/Photos/Rectangle\ 77.png");
 }
 
 .game-card-4 .game-card-img {
-	background-image: url('./assets/Photos/Rectangle\ 78.png');
+  background-image: url("./assets/Photos/Rectangle\ 78.png");
 }
 
 .game-card .game-card-text {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: center;
-	gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .game-card .game-card-text h3 {
-	font-size: 1.4rem;
-	font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
 .game-card-4 .game-card-text h3 {
-	width: 90%;
+  width: 90%;
 }
 
 .game-card .game-card-text .game-category {
-	color: #f4694c;
-	font-size: 0.9rem;
+  color: #f4694c;
+  font-size: 0.9rem;
 }
 
 .game-card .game-card-text .game-description {
-	font-size: 0.8rem;
-	line-height: 1.5rem;
-	opacity: 0.8;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  opacity: 0.8;
 }
 
 .game-card .game-card-text button {
-	background-color: #f4694c;
-	color: #ffffff;
-	border: 2px solid transparent;
-	padding: 0.7rem 2rem;
+  background-color: #f4694c;
+  color: #ffffff;
+  border: 2px solid transparent;
+  padding: 0.7rem 2rem;
 }
 
 .game-card .game-card-text button:hover {
-	background-color: #ffffff;
-	color: #f4694c;
-	border: 2px solid #f4694c;
-	transition: all 0.3s;
-	cursor: pointer;
+  background-color: #ffffff;
+  color: #f4694c;
+  border: 2px solid #f4694c;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
 /* Media Queries for Recommend Games Section */
 
 @media (max-width: 1200px) {
-	.recommend-cards {
-		grid-template-columns: repeat(1, 1fr);
-	}
+  .recommend-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-	.recommend-cards .game-card {
-		justify-content: center;
-	}
+  .recommend-cards .game-card {
+    justify-content: center;
+  }
 
-	.recommend-cards .game-card-2,
-	.recommend-cards .game-card-4 {
-		flex-direction: row-reverse;
-	}
+  .recommend-cards .game-card-2,
+  .recommend-cards .game-card-4 {
+    flex-direction: row-reverse;
+  }
 
-	.game-card-4 .game-card-text h3 {
-		width: 100%;
-	}
+  .game-card-4 .game-card-text h3 {
+    width: 100%;
+  }
 }
 
 @media (max-width: 960px) {
-	.recommend-text {
-		width: 70%;
-	}
+  .recommend-text {
+    width: 70%;
+  }
 
-	.recommend-text h2 {
-		font-size: 2rem;
-	}
+  .recommend-text h2 {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 767px) {
-	#recommend-games {
-		padding: 0 2rem 5rem;
-	}
+  #recommend-games {
+    padding: 0 2rem 5rem;
+  }
 
-	.recommend-logo img:first-child {
-		padding: 1rem 1rem;
-	}
+  .recommend-logo img:first-child {
+    padding: 1rem 1rem;
+  }
 
-	.recommend-logo img:last-child {
-		padding: 1rem 1rem;
-		margin-left: 0.3rem;
-	}
+  .recommend-logo img:last-child {
+    padding: 1rem 1rem;
+    margin-left: 0.3rem;
+  }
 }
 
 @media (max-width: 600px) {
-	#recommend-games .recommend-header {
-		flex-direction: column;
-		justify-content: center;
-		align-items: flex-start;
-		row-gap: 2rem;
-	}
+  #recommend-games .recommend-header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 2rem;
+  }
 
-	.recommend-text {
-		width: 100%;
-	}
+  .recommend-text {
+    width: 100%;
+  }
 
-	.recommend-text h2 {
-		font-weight: 600;
-	}
+  .recommend-text h2 {
+    font-weight: 600;
+  }
 
-	.recommend-cards .game-card {
-		flex-direction: column;
-		align-items: center;
-	}
+  .recommend-cards .game-card {
+    flex-direction: column;
+    align-items: center;
+  }
 
-	.game-card .game-card-img {
-		background-size: contain;
-	}
+  .game-card .game-card-img {
+    background-size: contain;
+  }
 
-	.game-card .game-card-text {
-		align-items: center;
-		text-align: center;
-	}
+  .game-card .game-card-text {
+    align-items: center;
+    text-align: center;
+  }
 
-	.game-card .game-card-text h3 {
-		width: 90%;
-	}
+  .game-card .game-card-text h3 {
+    width: 90%;
+  }
 
-	.game-card .game-card-text p {
-		width: 75%;
-	}
+  .game-card .game-card-text p {
+    width: 75%;
+  }
 }
 
 /* Most Played Games Section Styling*/
 
 #most-played {
-	background-image: url('./assets/Icons/GAMES\ OF\ THE\ WORLD.svg');
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
-	background-color: #000000;
-	padding: 6rem 5rem;
-	position: relative;
+  background-image: url("./assets/Icons/GAMES\ OF\ THE\ WORLD.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #000000;
+  padding: 6rem 5rem;
+  position: relative;
 }
 
 #most-played .most-played-header {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #most-played .most-played-header h2 {
-	font-size: 3rem;
-	text-align: center;
+  font-size: 3rem;
+  text-align: center;
 }
 
 #most-played .most-played-paragraph {
-	display: flex;
-	justify-content: flex-end;
-	margin-top: 7rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 7rem;
 }
 
 #most-played .most-played-paragraph p {
-	line-height: 2rem;
-	opacity: 0.7;
-	position: relative;
-	width: 55%;
+  line-height: 2rem;
+  opacity: 0.7;
+  position: relative;
+  width: 55%;
 }
 
 #most-played .most-played-img {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	gap: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
 }
 
 .most-played-img .img-1 {
-	width: 30%;
-	min-width: 15rem;
-	position: relative;
-	top: -10rem;
+  width: 30%;
+  min-width: 15rem;
+  position: relative;
+  top: -10rem;
 }
 
 .most-played-img .img-2,
 .most-played-img .img-3 {
-	width: 20%;
-	min-width: 15rem;
-	align-self: flex-end;
+  width: 20%;
+  min-width: 15rem;
+  align-self: flex-end;
 }
 
 /* Media Queries for Most Played Games Section */
 
 @media (max-width: 1400px) {
-	#most-played .most-played-header h2 {
-		width: 50%;
-	}
+  #most-played .most-played-header h2 {
+    width: 50%;
+  }
 }
 
 @media (max-width: 1280px) {
-	#most-played .most-played-header h2 {
-		width: 60%;
-	}
+  #most-played .most-played-header h2 {
+    width: 60%;
+  }
 
-	#most-played .most-played-paragraph {
-		margin: 4rem 0;
-		justify-content: center;
-		text-align: center;
-	}
+  #most-played .most-played-paragraph {
+    margin: 4rem 0;
+    justify-content: center;
+    text-align: center;
+  }
 
-	#most-played .most-played-paragraph p {
-		width: 70%;
-	}
+  #most-played .most-played-paragraph p {
+    width: 70%;
+  }
 
-	#most-played .most-played-img {
-		gap: 3rem;
-	}
+  #most-played .most-played-img {
+    gap: 3rem;
+  }
 
-	.most-played-img .img-1 {
-		position: static;
-	}
+  .most-played-img .img-1 {
+    position: static;
+  }
 
-	#most-played .most-played-img img {
-		width: 20rem;
-		align-self: center;
-	}
+  #most-played .most-played-img img {
+    width: 20rem;
+    align-self: center;
+  }
 }
 
 @media (max-width: 1023px) {
-	#most-played .most-played-header h2 {
-		width: 70%;
-		font-size: 2.5rem;
-	}
+  #most-played .most-played-header h2 {
+    width: 70%;
+    font-size: 2.5rem;
+  }
 
-	#most-played .most-played-paragraph p {
-		width: 100%;
-	}
+  #most-played .most-played-paragraph p {
+    width: 100%;
+  }
 }
 
 @media (max-width: 767px) {
-	#most-played {
-		padding: 5rem 2rem;
-	}
+  #most-played {
+    padding: 5rem 2rem;
+  }
 
-	#most-played .most-played-header h2 {
-		width: 100%;
-		font-size: 2rem;
-		font-weight: 600;
-	}
+  #most-played .most-played-header h2 {
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 600;
+  }
 }
 
 /* Call to Action Section Styling*/
 
 #cta {
-	background-color: #000000;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-		url('./assets/Photos/Rectangle\ 606.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 7rem 5rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 2rem;
+  background-color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./assets/Photos/Rectangle\ 606.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 7rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 #cta h2 {
-	font-size: 3rem;
-	text-align: center;
+  font-size: 3rem;
+  text-align: center;
 }
 
 #cta p {
-	line-height: 1.5rem;
-	text-align: center;
-	opacity: 0.7;
-	width: 40%;
+  line-height: 1.5rem;
+  text-align: center;
+  opacity: 0.7;
+  width: 40%;
 }
 
 #cta button {
-	background-color: #f4694c;
-	color: #ffffff;
-	font-size: 1.2rem;
-	font-weight: 500;
-	border: 2px solid transparent;
-	padding: 1rem 2.5rem;
+  background-color: #f4694c;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: 2px solid transparent;
+  padding: 1rem 2.5rem;
 }
 
 #cta button:hover {
-	background-color: #ffffff;
-	color: #f4694c;
-	border: 2px solid #f4694c;
-	scale: 1.05;
-	transition: all 0.5s;
-	cursor: pointer;
+  background-color: #ffffff;
+  color: #f4694c;
+  border: 2px solid #f4694c;
+  scale: 1.05;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
 /* Media Queries for Call to Action Section */
 
 @media (max-width: 1023px) {
-	#cta h2 {
-		font-size: 2.5rem;
-	}
+  #cta h2 {
+    font-size: 2.5rem;
+  }
 
-	#cta p {
-		width: 60%;
-	}
+  #cta p {
+    width: 60%;
+  }
 }
 
 @media (max-width: 767px) {
-	#cta {
-		padding: 5rem 2rem;
-	}
+  #cta {
+    padding: 5rem 2rem;
+  }
 
-	#cta h2 {
-		font-size: 2rem;
-		font-weight: 600;
-	}
+  #cta h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
 
-	#cta p {
-		width: 90%;
-	}
+  #cta p {
+    width: 90%;
+  }
 }
 
 /* Footer Section Styling */
 
 footer {
-	background-color: #000000;
-	padding: 7rem 5rem;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-	flex-wrap: wrap;
-	gap: 3rem;
+  background-color: #000000;
+  padding: 7rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 3rem;
 }
 
 .footer-logo p {
-	margin-top: 1rem;
-	margin-bottom: 1.5rem;
-	font-weight: 300;
-	opacity: 0.7;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+  opacity: 0.7;
 }
 
 .footer-logo img {
-	margin-right: 1rem;
-	cursor: pointer;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .footer-list {
-	display: flex;
-	flex-direction: column;
-	gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .footer-list .footer-list-header {
-	font-size: 1.1rem;
-	font-weight: 500;
-	opacity: 1;
-	margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  opacity: 1;
+  margin-bottom: 0.5rem;
 }
 
 .footer-list p {
-	font-weight: 300;
-	opacity: 0.7;
+  font-weight: 300;
+  opacity: 0.7;
 }
 
 .footer-list p:not(:first-child):hover {
-	cursor: pointer;
-	color: #f4694c;
+  cursor: pointer;
+  color: #f4694c;
 }
 
 /* Media Queries for Footer Section */
 
 @media (max-width: 767px) {
-	footer {
-		padding: 5rem 2rem;
-		gap: 2rem;
-	}
+  footer {
+    padding: 5rem 2rem;
+    gap: 2rem;
+  }
 }
 
+.text {
+  color: white;
+  text-align: start !important;
+}
 /* Footer Credits Section */
 
 .footer-credits {
-	background-color: #000000;
-	text-align: center;
-	padding-bottom: 3rem;
+  background-color: #000000;
+  text-align: center;
+  padding-bottom: 3rem;
 }
 
 .footer-credits p {
-	font-size: 1.1rem;
-	font-weight: 500;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .footer-credits .github-link {
-	text-decoration: none;
-	color: #ffffff;
-	padding-left: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 5px;
 }
 
 .footer-credits .github-link:hover {
-	color: #840cfd;
+  color: #840cfd;
+}
+a {
+  color: white;
+  text-decoration: none;
 }
