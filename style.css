@@ -1008,7 +1008,6 @@ a {
 }
 /* Contact Section Styles */
 #contact-section {
-  padding: 80px 5%;
   background-color: #000308;
   color: white;
 }
@@ -1198,4 +1197,8 @@ a {
   .submit-btn {
     width: 100%;
   }
+}
+
+.contact-link{
+  transition: all 0.3s ease-in-out;
 }
